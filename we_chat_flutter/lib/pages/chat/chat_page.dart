@@ -102,7 +102,7 @@ with AutomaticKeepAliveClientMixin<ChatPage>{
   }
   Widget _builbItemForRow (BuildContext context, int index) {
     if(index==0){
-      return SearchBar();
+      return SearchCell(datas: _datas,);
     }else{
       return ListTile(
         title: Text(_datas[index].name),
