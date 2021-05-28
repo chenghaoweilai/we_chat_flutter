@@ -103,7 +103,7 @@ class _CellHeaderWidgetState extends State<CellHeaderWidget> {
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),
                     image: DecorationImage(
-                      image: AssetImage('images/aaahank.png'),
+                      image: AssetImage('images/汤姆.png'),
                     )),
               ), //头像
               Expanded(
